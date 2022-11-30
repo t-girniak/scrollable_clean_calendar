@@ -67,6 +67,7 @@ class DaysWidget extends StatelessWidget {
       padding: EdgeInsets.zero,
       crossAxisSpacing: calendarCrossAxisSpacing,
       mainAxisSpacing: calendarMainAxisSpacing,
+      primary: false,
       shrinkWrap: true,
       children: List.generate(
           DateTime(month.year, month.month + 1, 0).day + start, (index) {
